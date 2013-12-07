@@ -1,0 +1,3 @@
+DrNu.Router.map(function () {
+  
+});
