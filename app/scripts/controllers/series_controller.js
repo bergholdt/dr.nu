@@ -1,4 +1,4 @@
-DrNu.SeriesController = Ember.ObjectController.extend({
+DrNu.SeriesController = Ember.ArrayController.extend({
   // Implement your controller here.
 });
 
