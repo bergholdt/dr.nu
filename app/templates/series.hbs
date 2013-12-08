@@ -1,0 +1,12 @@
+<h1>Series</h1>
+
+<ul>
+ {{#each model}}
+ 	<li class="serie">
+		<strong>{{#linkTo 'serie' this}}{{this.title}}{{/linkTo}}</strong>
+		<p>{{description}}</p>
+	</li>
+  {{/each}}
+</ul>
+
+{{outlet}}
